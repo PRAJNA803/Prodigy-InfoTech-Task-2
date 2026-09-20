@@ -17,33 +17,19 @@ The dataset contains information about Titanic passengers.
 \* `gender\_submission.csv` – Sample submission file.
 \### Important Features
 | Feature     | Description                            |
-
 | ----------- | -------------------------------------- |
-
 | PassengerId | Unique passenger identification number |
-
 | Survived    | Survival status: 0 = No, 1 = Yes       |
-
 | Pclass      | Passenger class                        |
-
 | Name        | Passenger name                         |
-
 | Sex         | Passenger gender                       |
-
 | Age         | Passenger age                          |
-
 | SibSp       | Number of siblings/spouses aboard      |
-
 | Parch       | Number of parents/children aboard      |
-
 | Ticket      | Ticket number                          |
-
 | Fare        | Passenger fare                         |
-
 | Cabin       | Cabin information                      |
-
 | Embarked    | Port of embarkation                    |
-
 \---
 \## 🧹 Data Cleaning
 The following data-cleaning operations were performed:
@@ -82,33 +68,20 @@ Shows the percentage of passengers who survived in each passenger class.
 \---
 \## 📈 Generated Visualizations
 All visualizations are stored inside the `output` folder.
-
 ```text
 
 output/
-
 ├── 01\_survival\_count.png
-
 ├── 02\_survival\_by\_gender.png
-
 ├── 03\_survival\_by\_class.png
-
 ├── 04\_age\_distribution.png
-
 ├── 05\_fare\_distribution.png
-
 ├── 06\_age\_vs\_survival.png
-
 ├── 07\_fare\_by\_class.png
-
 ├── 08\_correlation\_heatmap.png
-
 ├── 09\_survival\_rate\_gender.png
-
 └── 10\_survival\_rate\_class.png
-
 ```
-
 \---
 \## 🛠️ Technologies Used
 \* Python
@@ -118,91 +91,51 @@ output/
 \---
 \## ▶️ How to Run
 \### Step 1: Open the project folder
-
 ```text
-
 C:\\Users\\PRAJNA\\Downloads\\Task2
-
 ```
 
 \### Step 2: Install required libraries
-
 ```bash
-
 pip install pandas matplotlib seaborn
-
 ```
-
 \### Step 3: Run the Python program
-
 ```bash
-
 python task2.py
-
 ```
-
 \### Step 4: View the generated charts
-
 The charts will be saved automatically inside the:
-
 ```text
-
 output
-
 ```
-
 folder.
-
 \---
-
 \## 📁 Project Structure
-
 ```text
 
 Task2/
-
 │
-
 ├── train.csv
-
 ├── test.csv
-
 ├── gender\_submission.csv
-
 ├── task2.py
-
 ├── README.md
-
 │
-
 └── output/
-
 &#x20;   ├── 01\_survival\_count.png
-
 &#x20;   ├── 02\_survival\_by\_gender.png
-
 &#x20;   ├── 03\_survival\_by\_class.png
-
 &#x20;   ├── 04\_age\_distribution.png
-
 &#x20;   ├── 05\_fare\_distribution.png
-
 &#x20;   ├── 06\_age\_vs\_survival.png
-
 &#x20;   ├── 07\_fare\_by\_class.png
-
 &#x20;   ├── 08\_correlation\_heatmap.png
-
 &#x20;   ├── 09\_survival\_rate\_gender.png
-
 &#x20;   └── 10\_survival\_rate\_class.png
-
 ```
-
 \---
 
 \## 🎯 Conclusion
-
 This task demonstrates the practical use of data cleaning and exploratory data analysis techniques on the Titanic dataset.
 
 The analysis helps understand passenger characteristics, missing data, survival patterns, and relationships between different numerical and categorical variables.
@@ -210,9 +143,6 @@ The analysis helps understand passenger characteristics, missing data, survival 
 The project provides experience in using \*\*Pandas for data manipulation\*\* and \*\*Matplotlib and Seaborn for data visualization\*\*.
 
 \---
-
 \## 👩‍💻 Internship
-
 \*\*Prodigy InfoTech – Data Science Internship\*\*
-
 \*\*Task 2: Data Cleaning and Exploratory Data Analysis\*\*
